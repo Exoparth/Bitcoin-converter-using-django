@@ -45,4 +45,4 @@ def home(request):
             return render(request, "home.html", {"msg": msg})
 
 
-    return render(request, "home.html")
+    return render(request, "index.html")
